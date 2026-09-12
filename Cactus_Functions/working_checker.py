@@ -142,3 +142,6 @@ def checker_sort():
 	harvest()
 set_world_size(7)
 checker_sort()
+
+#FOR TOMORROW
+#create a list of encoded coordinates, and only check those after first pass, make sure its in order to not waste time #you got this queen <3 
