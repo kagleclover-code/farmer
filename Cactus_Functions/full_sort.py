@@ -5,7 +5,7 @@
 #Sides should not search for parity match
 #tracker variables need to be implemented to prevent scanning over an entire area multiple times
 from funcs import *
-def checker_sort():
+def full_sort():
 	#Create list of integers to check for the correct coordinate cases
 	
 	initial_tracker = 0
@@ -157,4 +157,4 @@ def checker_sort():
 			tracker = 0
 	harvest()
 set_world_size(8)
-checker_sort()
+full_sort()
